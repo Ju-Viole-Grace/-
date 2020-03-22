@@ -34,5 +34,5 @@ async def on_message(message):
         await message.channel.send("~~**많고 많은 마법사 들중 내가 제일 잘났 지**~~")
     if message.content.startswith("!많고많은마법사들중내가제일잘났지"):
         await m_essage.channel.send("그런 건 상대편한테나 하라고. ***처형시키기 전에.***")
-access_token = nviron.os[*BOT_TOKEN*]
+access_token = environ.os[*BOT_TOKEN*]
 client.run(access_token)
